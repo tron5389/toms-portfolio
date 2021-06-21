@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/toms-portfolio/static/css/main.597a1246.chunk.css",
-    "main.js": "/toms-portfolio/static/js/main.7fb2df65.chunk.js",
-    "main.js.map": "/toms-portfolio/static/js/main.7fb2df65.chunk.js.map",
-    "runtime-main.js": "/toms-portfolio/static/js/runtime-main.55b46678.js",
-    "runtime-main.js.map": "/toms-portfolio/static/js/runtime-main.55b46678.js.map",
-    "static/js/2.0191aa7e.chunk.js": "/toms-portfolio/static/js/2.0191aa7e.chunk.js",
-    "static/js/2.0191aa7e.chunk.js.map": "/toms-portfolio/static/js/2.0191aa7e.chunk.js.map",
-    "static/js/3.b6194224.chunk.js": "/toms-portfolio/static/js/3.b6194224.chunk.js",
-    "static/js/3.b6194224.chunk.js.map": "/toms-portfolio/static/js/3.b6194224.chunk.js.map",
-    "index.html": "/toms-portfolio/index.html",
-    "static/css/main.597a1246.chunk.css.map": "/toms-portfolio/static/css/main.597a1246.chunk.css.map",
-    "static/js/2.0191aa7e.chunk.js.LICENSE.txt": "/toms-portfolio/static/js/2.0191aa7e.chunk.js.LICENSE.txt"
+    "main.css": "/toms-portfolio/home/static/css/main.597a1246.chunk.css",
+    "main.js": "/toms-portfolio/home/static/js/main.2272a483.chunk.js",
+    "main.js.map": "/toms-portfolio/home/static/js/main.2272a483.chunk.js.map",
+    "runtime-main.js": "/toms-portfolio/home/static/js/runtime-main.2a6d8a0a.js",
+    "runtime-main.js.map": "/toms-portfolio/home/static/js/runtime-main.2a6d8a0a.js.map",
+    "static/js/2.0191aa7e.chunk.js": "/toms-portfolio/home/static/js/2.0191aa7e.chunk.js",
+    "static/js/2.0191aa7e.chunk.js.map": "/toms-portfolio/home/static/js/2.0191aa7e.chunk.js.map",
+    "static/js/3.b6194224.chunk.js": "/toms-portfolio/home/static/js/3.b6194224.chunk.js",
+    "static/js/3.b6194224.chunk.js.map": "/toms-portfolio/home/static/js/3.b6194224.chunk.js.map",
+    "index.html": "/toms-portfolio/home/index.html",
+    "static/css/main.597a1246.chunk.css.map": "/toms-portfolio/home/static/css/main.597a1246.chunk.css.map",
+    "static/js/2.0191aa7e.chunk.js.LICENSE.txt": "/toms-portfolio/home/static/js/2.0191aa7e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.55b46678.js",
+    "static/js/runtime-main.2a6d8a0a.js",
     "static/js/2.0191aa7e.chunk.js",
     "static/css/main.597a1246.chunk.css",
-    "static/js/main.7fb2df65.chunk.js"
+    "static/js/main.2272a483.chunk.js"
   ]
 }
