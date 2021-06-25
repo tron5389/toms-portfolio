@@ -12,8 +12,9 @@
   
   .logo {
     display: flex;
-    max-width: 130px;
-    height: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px;
   }
   
   .logo img {

@@ -8,14 +8,8 @@ const Footer = () => {
             target="_blank"
             >
             <img
-            src="https://github.com/DwinaTech/public-images/blob/main/youtube-icon.png?raw=true"
+            src={`${process.env.PUBLIC_URL}/github-brands.svg`}
             alt="Facebook-icon"
-            />
-        </a>
-        <a href="https://www.facebook.com/DwinaTech" target="_blank">
-            <img
-            src="https://github.com/DwinaTech/public-images/blob/main/facebook-con.png?raw=true"
-            alt="YouTube-icon"
             />
         </a>
         <a
@@ -23,14 +17,8 @@ const Footer = () => {
             target="_blank"
         >
             <img
-            src="https://github.com/DwinaTech/public-images/blob/main/linkedin-icon.png?raw=true"
+            src={`${process.env.PUBLIC_URL}/linkedin-brands.svg`}
             alt="LinkIn-icon"
-            />
-        </a>
-        <a href="https://twitter.com/diwna201" target="_blank">
-            <img
-            src="https://github.com/DwinaTech/public-images/blob/main/twitter-icon.png?raw=true"
-            alt="Twitter-icon"
             />
         </a>
         </footer>

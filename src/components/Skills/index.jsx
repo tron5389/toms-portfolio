@@ -8,31 +8,35 @@ const Skills = () => {
       <div className="content">
         <div>
           <strong>Languages:</strong>
+          <li>C#</li>
+          <li>SQL / T-SQL</li>
+          <li>VB.NET</li>
+          <li>VBA</li>
           <li>CSS3</li>
           <li>HTML5</li>
-          <li>Node.js</li>
           <li>JavaScript</li>
         </div>
         <div>
           <strong>Libraries:</strong>
-          <li>Bootstrap</li>
-          <li>Express.js</li>
-          <li>Material-ui</li>
+          <li>Selenium</li>
+          <li>HTML Agility Pack 5</li>
+          <li>Newtonsoft.json</li>
+          <li>Telerik .Net</li>
           <li>React.js</li>
         </div>
         <div>
           <strong>Tools:</strong>
-          <li>Eslint</li>
-          <li>Webpack</li>
-          <li>Chrome Dev</li>
-          <li>Git & Github</li>
+          <li>Visual Studio</li>
+          <li>Visual Studio Code</li>
+          <li>Sql Server Management Studio</li>
+          <li>SonarQube / SonarLint</li>
+          <li>Postman</li>
+          <li>LINQPad</li>
         </div>
         <div>
-          <strong>Uint Test:</strong>
-          <li>Jest</li>
-          <li>Enzyme</li>
-          <li>React-test</li>
-          <li>SupperTest</li>
+          <strong>ORM:</strong>
+          <li>Enitity Framework Core</li>
+          <li>Dapper</li>
         </div>
       </div>
     </div>

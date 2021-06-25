@@ -4,8 +4,9 @@ footer{
 }
 footer img{
     max-width: 60px;
+    max-height: 60px;
 }
 
 footer img::not(:last-child){
-    margin-right: 10px;
+    margin-right: 80px;
 }

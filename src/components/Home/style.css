@@ -5,7 +5,9 @@
     flex-direction: column;
     align-items: center;
 }
-
+.home p{
+    margin-bottom: 20px;
+}
 .home .title{
     width: 100%;
     font-size: 18px;

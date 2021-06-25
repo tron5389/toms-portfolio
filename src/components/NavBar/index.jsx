@@ -33,7 +33,7 @@ const NavBar = () => {
         <div className="logo">
           <Link to="/">
             <img
-              src="https://github.com/DwinaTech/public-images/blob/main/DwinaTech-brand.png?raw=true"
+              src={`${process.env.PUBLIC_URL}/atom-solid.svg`}
               alt="brand"
             />
           </Link>

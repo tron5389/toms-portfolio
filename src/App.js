@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import home from './components/Home';
 import Footer from './components/Footer'
 import About from './components/About'
@@ -11,10 +11,11 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
+      
       <div className="app">
         <NavBar/>
-        <Switch>  
+        <Switch>
           <Route exact path="/" component={home}/>
           <Route exact path="/About" component={About}/>
           <Route exact path="/Skills" component={Skills}/>
