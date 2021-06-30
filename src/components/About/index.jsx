@@ -1,13 +1,34 @@
 import React from 'react'
-
+import ImageGallery from 'react-image-gallery';
 import "./style.css"
+
+const aboutImages = [
+
+    {
+        original: 'https://github.com/tron5389/public-images/blob/master/tel-aviv-trip.png?raw=true',
+        thumbnail: 'https://github.com/tron5389/public-images/blob/master/tel-aviv-trip.png?raw=true',
+    },
+    
+    {
+      original: 'https://github.com/tron5389/public-images/blob/master/Intern_Chemical-Plant.png?raw=true',
+      thumbnail: 'https://github.com/tron5389/public-images/blob/master/Intern_Chemical-Plant.png?raw=true',
+    },
+
+    {
+    original: 'https://github.com/tron5389/public-images/blob/master/tom-olivia-estrella.png?raw=true',
+    thumbnail: 'https://github.com/tron5389/public-images/blob/master/tom-olivia-estrella.png?raw=true',
+    },
+    
+    {
+    original: 'https://github.com/tron5389/public-images/blob/master/brazil-dev-team.png?raw=true',
+    thumbnail: 'https://github.com/tron5389/public-images/blob/master/brazil-dev-team.png?raw=true',
+    },
+  ];
+
 export const About = () => {
     return (
         <div className="about">
             <h1>Bio</h1>
-            <div className="bio">
-                
-                <div className="column-left">
                     <p>
                     I was born in Israel and grew up in Alabama where I attended Auburn University 
                     to earn my degree in Chemical Engineering. I made the decision to shift my career path 
@@ -15,27 +36,14 @@ export const About = () => {
                     since! When I'm not coding you can find me cooking or hanging outside with my friends. 
                     I play on several tennis teams in Atlanta throughught the year with ALTA and USTA. 
                     I also enjoy board sports and water sprots, and I spend as much time at the beach as 
-                    I can during the warm months. 
-                    </p>
-                    <img
-                        src="https://github.com/tron5389/public-images/blob/master/Intern_Chemical-Plant.png?raw=true"
-                        alt="person picture"
-                    />
-                </div>
-                <div className="column-right">
-                <img
-                        src="https://github.com/tron5389/public-images/blob/master/tel-aviv-trip.png?raw=true"
-                        alt="person picture"
-                    />
-                    <p>
+                    I can during the warm months.                     
                     Growing up travelling abroad to visit family, I had the 
                     opportunity to immerse myself in different languages and cultures. I speak a total of four 
                     languages including Hebrew, Portugese, and French. I have spent a lot of time travelling 
                     internationally for work, as well as some personal vacations, and these 
                     language skills have really come in handy and I love taking any opportunity to practice!
                     </p>
-                </div>
-            </div>
+                    <ImageGallery items={aboutImages} showThumbnails={false}/>                
             <h1>My Journey from Engineer to Developer</h1>
             <p>
             I did a Co-Op internship at MFG Chemical and one of the semesters I was asked to perform a 
