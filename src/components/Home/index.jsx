@@ -8,15 +8,16 @@ const Home = () => {
                 <h1>
                     <p>Hi, I'm Tom</p>
                     
-                    <p>Welcome to my Software Devlopment Portfolio!</p>
+                    <p>Welcome to my Software Development Portfolio!</p>
                 </h1>
                 <Link to="about">
                     <button>About Me</button>
                 </Link>
             </div>
-            <div className="person">
+            <br/>
+            <div className="title">
                 <img
-                src={`${process.env.PUBLIC_URL}/lemon_clipart.jpg`}
+                src='https://github.com/tron5389/public-images/blob/master/profile-pic.png?raw=true'
                 alt="person picture"
                 />
             </div>

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             <a
-            href="https://www.youtube.com/channel/UCSS0kFyF7KWjE19Rj9PgNQA"
+            href="https://github.com/tron5389?tab=repositories"
             target="_blank"
             >
             <img

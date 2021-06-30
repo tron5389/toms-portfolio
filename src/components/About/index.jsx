@@ -34,40 +34,37 @@ export const About = () => {
                     to earn my degree in Chemical Engineering. I made the decision to shift my career path 
                     towards software development during a college internship, and I have been loving it ever 
                     since! When I'm not coding you can find me cooking or hanging outside with my friends. 
-                    I play on several tennis teams in Atlanta throughught the year with ALTA and USTA. 
-                    I also enjoy board sports and water sprots, and I spend as much time at the beach as 
+                    I play on several tennis teams in Atlanta throughout the year with ALTA and USTA. 
+                    I also enjoy board sports and water sports, and I spend as much time at the beach as 
                     I can during the warm months.                     
                     Growing up travelling abroad to visit family, I had the 
                     opportunity to immerse myself in different languages and cultures. I speak a total of four 
-                    languages including Hebrew, Portugese, and French. I have spent a lot of time travelling 
+                    languages including Hebrew, Portuguese, and French. I have spent a lot of time travelling 
                     internationally for work, as well as some personal vacations, and these 
-                    language skills have really come in handy and I love taking any opportunity to practice!
+                    language skills have really come in handy, and I love taking any opportunity to practice!
+
                     </p>
-                    <ImageGallery items={aboutImages} showThumbnails={false}/>                
+                    <br/>
+                    <ImageGallery items={aboutImages} showThumbnails={false}/>      
+                    <br/>
+
             <h1>My Journey from Engineer to Developer</h1>
             <p>
-            I did a Co-Op internship at MFG Chemical and one of the semesters I was asked to perform a 
-            series of calculations for all of their chemical processes that would have taken months by 
-            hand. I was attempting to create a spreadsheet for this when I accidentally stumbled upon 
-            VBA and creating this VBA forms project was my very first application. Building on this 
-            experience I spent time in the summer studying object oriented programming, and I rebuilt 
-            the previous application using VB.Net and SQL to install at my internship for all the 
-            engineers to use. The next term I served as the global admina nd head of implementation for
-            a new CMMS software. Working with the software vendor while implementing and building more
-            of my own application solidified my feelings that Software Development was the path for me. 
-            I spent the rest of my college career honing these skills in addition to completing my 
-            coursework. I tutured MIS courses in relational database design and worked with a few friends 
-            at a company we had called MadMen Software, where we assisted with local businesses and aspring 
-            start-ups in creating web and mobile applications. I was hired to Andritz after college as a 
-            Process Control Engineer, but soon after I started they realized my software skills were much 
-            more prominent and I began working with the Andritz Technology group. I began by travelling to 
-            site to work with customers implementing their IIoT platform for manufacturing plants called Metris. 
-            I supported customers remotely and on-site configuring and supporting the platform. Eventually 
-            I began working on a lot of ad-hoc development to provide custom reporting and data solutions using 
-            SQL, AWS Redshift, and C#. Later I started working more closely with the develoment team as an SME 
-            for several product groups as well, as well as participating with these product groups peforming QA 
-            and backlog refinement. In August 2020, I transitioned to the development team as a Full Stack 
-            developer to work on developing new features to meet key cutomer demands.
+            As an engineer we were always taught to work smarter, not harder, and my approach to this was most times
+             a software solution. I began developing applications when I was an intern at a chemical plant. 
+             There were many calculations and workflows performed by the Engineering and Production departments that 
+             were done by hand. I developed applications using VBA, VB.NET, and SQL to replace these tedious tasks and 
+             ensure uniformity in our daily activities. Building on this exciting experience I spent the rest of my college 
+             career pursuing opportunities to hone my development skills. I tutored MIS coursework in relational databases 
+             and worked with a group of friends at a company we started that developed Mobile and Web applications for local
+              businesses and aspiring start-ups in the area. I was hired as a process control engineer but was quickly moved 
+              to working with our technology division. Initially I began working in a customer support role travelling to 
+              customer sites to perform mass upload and configuration strategies as part of implementation for start-up of 
+              contracts. As time went, I began working closer and closer with the development team, first developing ad-hoc 
+              custom solutions for customers using SQL, reporting services, C#, and AWS. In addition, I had access to the 
+              code base and worked with the team performing backlog refinement, QA, and bug resolution services. 
+              In August of 2020 I transitioned to a full stack development role with the software engineering team, and 
+              I couldn’t be happier with this path that I am on!
             </p>
             
         </div>
