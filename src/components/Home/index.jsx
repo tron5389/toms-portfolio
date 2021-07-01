@@ -6,16 +6,16 @@ const Home = () => {
         <div className="home">
             <div className="title">
                 <h1>
-                    <p>Hi, I'm Tom</p>
+                    <p>Hi I'm Tom,</p>
                     
-                    <p>Welcome to my Software Development Portfolio!</p>
+                    <p>Welcome to my Personal Portfolio</p>
                 </h1>
                 <Link to="about">
                     <button>About Me</button>
                 </Link>
             </div>
             <br/>
-            <div className="title">
+            <div className="person">
                 <img
                 src='https://github.com/tron5389/public-images/blob/master/profile-pic.png?raw=true'
                 alt="person picture"

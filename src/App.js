@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import {HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import home from './components/Home';
 import Footer from './components/Footer'
 import About from './components/About'

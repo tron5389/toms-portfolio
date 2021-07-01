@@ -50,21 +50,16 @@ export const About = () => {
 
             <h1>My Journey from Engineer to Developer</h1>
             <p>
-            As an engineer we were always taught to work smarter, not harder, and my approach to this was most times
-             a software solution. I began developing applications when I was an intern at a chemical plant. 
-             There were many calculations and workflows performed by the Engineering and Production departments that 
-             were done by hand. I developed applications using VBA, VB.NET, and SQL to replace these tedious tasks and 
-             ensure uniformity in our daily activities. Building on this exciting experience I spent the rest of my college 
-             career pursuing opportunities to hone my development skills. I tutored MIS coursework in relational databases 
-             and worked with a group of friends at a company we started that developed Mobile and Web applications for local
-              businesses and aspiring start-ups in the area. I was hired as a process control engineer but was quickly moved 
-              to working with our technology division. Initially I began working in a customer support role travelling to 
-              customer sites to perform mass upload and configuration strategies as part of implementation for start-up of 
-              contracts. As time went, I began working closer and closer with the development team, first developing ad-hoc 
-              custom solutions for customers using SQL, reporting services, C#, and AWS. In addition, I had access to the 
-              code base and worked with the team performing backlog refinement, QA, and bug resolution services. 
+            As Engineers, we were always taught to work smarter, not harder, and my approach to this was most times a software solution. I began developing applications when I was an intern at a chemical plant. 
+             There were many calculations and workflows performed by hand in the Engineering and Production departments. I developed applications using VBA, VB.NET, and SQL to automate these tedious tasks and 
+             ensure uniformity in our daily activities. Building on this exciting experience I spent the rest of my college career pursuing opportunities to hone my development skills. I tutored MIS coursework 
+             in relational databases and worked with a group of friends at a company we started that developed Mobile and Web applications for local businesses and aspiring start-ups in the area. I was hired as
+              a process control engineer at Andritz out of college but was quickly moved to working with our technology division. Initially, I began working in a customer support role, travelling to 
+              customer sites to perform mass uploads and develop configuration strategies for new contracts starting up. 
+              As time went on, I began working closer and closer with the development team. At first, I was developing ad-hoc 
+              solutions for customers using SQL, reporting services, C#, and AWS. Later, I had access to the code base and worked with the team participating in backlog refinement, QA, and bug resolution. 
               In August of 2020 I transitioned to a full stack development role with the software engineering team, and 
-              I couldn’t be happier with this path that I am on!
+              I could not be happier with this path that I am on!
             </p>
             
         </div>

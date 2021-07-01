@@ -3,7 +3,7 @@
   flex-grow: 1;
   min-width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -36,14 +36,14 @@
   margin-top: 20px;
 }
 
-.home .person img {
+.home .title img {
   width: 80%;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .home {
       display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
     width: auto;
   }
@@ -51,11 +51,11 @@
   .home .person {
     width: 50%;
     margin-top: 0;
-    text-align: left;
-    font-size: 25px;
+    text-align: center;
+    font-size: 15px;
   }
-  .person img {
-    width: 100vw;
+  .home .person img{
+    width: 100%;
 
   }
 }

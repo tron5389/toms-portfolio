@@ -8,6 +8,7 @@ import { HashRouter, Route } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
       <App />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
