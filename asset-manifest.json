@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/toms-portfolio/static/css/main.bd9831a1.chunk.css",
-    "main.js": "/toms-portfolio/static/js/main.b5b4df32.chunk.js",
-    "main.js.map": "/toms-portfolio/static/js/main.b5b4df32.chunk.js.map",
+    "main.css": "/toms-portfolio/static/css/main.cd80174a.chunk.css",
+    "main.js": "/toms-portfolio/static/js/main.03e8e7da.chunk.js",
+    "main.js.map": "/toms-portfolio/static/js/main.03e8e7da.chunk.js.map",
     "runtime-main.js": "/toms-portfolio/static/js/runtime-main.48bf652d.js",
     "runtime-main.js.map": "/toms-portfolio/static/js/runtime-main.48bf652d.js.map",
     "static/css/2.ad581902.chunk.css": "/toms-portfolio/static/css/2.ad581902.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.f7493c80.chunk.js.map": "/toms-portfolio/static/js/3.f7493c80.chunk.js.map",
     "index.html": "/toms-portfolio/index.html",
     "static/css/2.ad581902.chunk.css.map": "/toms-portfolio/static/css/2.ad581902.chunk.css.map",
-    "static/css/main.bd9831a1.chunk.css.map": "/toms-portfolio/static/css/main.bd9831a1.chunk.css.map",
+    "static/css/main.cd80174a.chunk.css.map": "/toms-portfolio/static/css/main.cd80174a.chunk.css.map",
     "static/js/2.7b4d0bb7.chunk.js.LICENSE.txt": "/toms-portfolio/static/js/2.7b4d0bb7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.48bf652d.js",
     "static/css/2.ad581902.chunk.css",
     "static/js/2.7b4d0bb7.chunk.js",
-    "static/css/main.bd9831a1.chunk.css",
-    "static/js/main.b5b4df32.chunk.js"
+    "static/css/main.cd80174a.chunk.css",
+    "static/js/main.03e8e7da.chunk.js"
   ]
 }
