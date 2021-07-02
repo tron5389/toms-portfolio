@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/toms-portfolio/static/css/main.dcfacbc3.chunk.css",
-    "main.js": "/toms-portfolio/static/js/main.48592d28.chunk.js",
-    "main.js.map": "/toms-portfolio/static/js/main.48592d28.chunk.js.map",
+    "main.js": "/toms-portfolio/static/js/main.795e123e.chunk.js",
+    "main.js.map": "/toms-portfolio/static/js/main.795e123e.chunk.js.map",
     "runtime-main.js": "/toms-portfolio/static/js/runtime-main.48bf652d.js",
     "runtime-main.js.map": "/toms-portfolio/static/js/runtime-main.48bf652d.js.map",
     "static/css/2.ad581902.chunk.css": "/toms-portfolio/static/css/2.ad581902.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.ad581902.chunk.css",
     "static/js/2.26de4103.chunk.js",
     "static/css/main.dcfacbc3.chunk.css",
-    "static/js/main.48592d28.chunk.js"
+    "static/js/main.795e123e.chunk.js"
   ]
 }
