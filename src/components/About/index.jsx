@@ -37,11 +37,11 @@ export const About = () => {
                     I play on several tennis teams in Atlanta throughout the year with ALTA and USTA. 
                     I also enjoy board sports and water sports, and I spend as much time at the beach as 
                     I can during the warm months.                     
-                    Growing up travelling abroad to visit family, I had the 
+                    Growing up traveling abroad to visit family, I had the 
                     opportunity to immerse myself in different languages and cultures. I speak a total of four 
-                    languages including Hebrew, Portuguese, and French. I have spent a lot of time travelling 
-                    internationally for work, as well as some personal vacations, and these 
-                    language skills have really come in handy, and I love taking any opportunity to practice!
+                    languages including Hebrew, Portuguese and French. I have spent a lot of time traveling 
+                    internationally for work and with friends. These language skills have really come in handy,
+                    and I love taking any opportunity to practice!
 
                     </p>
                     <br/>

@@ -18,7 +18,7 @@ const Footer = () => {
         >
             <img
             src={`${process.env.PUBLIC_URL}/linkedin-brands.svg`}
-            alt="LinkIn-icon"
+            alt="LinkedIn-icon"
             />
         </a>
         </footer>

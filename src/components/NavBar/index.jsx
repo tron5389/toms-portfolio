@@ -1,43 +1,29 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import filesaver from 'file-saver'
 import "./style.css";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
-  const [screenWidth, setScreenWidth] = useState(0);
   const location = useLocation();
 
-  const trackScreenWidth = () => {
-    const width = window.innerWidth;
-    setScreenWidth(width);
-    if (width > 600) {
-      setOpen(true);
-    }
-  };
 
   const handleClose = () => {
-    if (screenWidth < 600) {
+    //if (screenWidth < 600) {
       setOpen(false);
-    }
+    //}
   };
 
-  useEffect(() => {
-    trackScreenWidth();
-    window.addEventListener("resize", trackScreenWidth);
-    return () => window.removeEventListener("resize", trackScreenWidth);
-  }, []);
+  const saveFile = () =>{
+    filesaver.saveAs(
+      process.env.PUBLIC_URL + "/Tom_Ron_Resume2021.pdf",
+      "Tom_Ron_Resume2021.pdf");
+  };
 
   return (
     <nav className="navbar">
       <div className="nav-wrapper">
-        <div className="logo">
-          <Link to="/">
-            <img
-              src={`${process.env.PUBLIC_URL}/atom-solid.svg`}
-              alt="brand"
-            />
-          </Link>
-        </div>
+        
         <div className="list-wrapper">
           <img
             src="https://github.com/DwinaTech/public-images/blob/main/menu-bars.png?raw=true"
@@ -102,7 +88,24 @@ const NavBar = () => {
                 Contact
               </Link>
             </li>
+            <li>
+            <a
+                href="https://github.com/tron5389/public-images/blob/master/Tom_Ron_Resume2021.pdf"
+                onClick={handleClose}
+                style={{ color: location.pathname === "/contact" && "#4071f4" }}
+              >
+                Resume
+              </a>
+            </li>
           </ul>
+        </div>
+        <div className="logo">
+          <Link to="/">
+            <img
+              src={`${process.env.PUBLIC_URL}/atom-solid.svg`}
+              alt="brand"
+            />
+          </Link>
         </div>
       </div>
     </nav>
